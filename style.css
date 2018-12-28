@@ -1,0 +1,50 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+header.startup{
+	height: 100%;
+	background-image: url(bottlecool.png.jpg);
+	background-size: cover;
+	background-position: center;
+}
+hr{
+	max-width: 0px;
+}
+
+.faded{
+	color: rgba(255,255,255,0.8);
+}
+
+header.startup hr{
+	margin-top: 200px;
+	margin-bottom: 650px;
+}
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn-primary{
+	background-color: #76e1ed;
+	border-color: #76e1ed;
+
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+.btn{
+	font-weight: 700;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	border-radius: 300px;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	background-color: #97e2ef;
+	border-color: #97e2ef;
+	border-width: 5px;
+}
